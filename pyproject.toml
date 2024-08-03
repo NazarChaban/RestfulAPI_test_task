@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "restfulapi-test-task"
+version = "0.1.0"
+description = ""
+authors = ["Nazar Chaban <134311145+Vivern0@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+fastapi-limiter = "^0.1.6"
+pydantic = "^2.8.2"
+pydantic-settings = "^2.3.4"
+psycopg2 = "^2.9.9"
+google-generativeai = "^0.7.2"
+openai = "^1.36.1"
+anthropic = "^0.31.2"
+sqlalchemy = "^2.0.31"
+alembic = "^1.13.2"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+fastapi-mail = "^1.4.1"
+cloudinary = "^1.40.0"
+bcrypt = "^4.2.0"
+sphinx = "^8.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
