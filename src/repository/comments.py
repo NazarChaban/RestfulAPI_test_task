@@ -13,8 +13,8 @@ from src.services.ai_services import (
     moderate_content, comment_response, comment_pool
 )
 
-AI_MODERATION = False
-AI_RESPONSE = False
+AI_MODERATION = True
+AI_RESPONSE = True
 
 
 async def create_comment(

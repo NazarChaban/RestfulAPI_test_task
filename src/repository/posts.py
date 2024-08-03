@@ -11,7 +11,7 @@ from src.services.ai_services import moderate_content
 from src.schemas import PostBase, PostAiModel
 from src.database.models import User, Post
 
-AI_MODERATION = False
+AI_MODERATION = True
 
 
 async def get_posts(
